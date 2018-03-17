@@ -9,7 +9,6 @@ Temp/UnityLockfile
 [Uu]nityGenerated/
 sysinfo.txt
 *.pidb.meta
-[Ee]xportedObj/
 *.booproj
 *.csproj
 *.sln
