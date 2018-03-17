@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class ChooseCharacter : MonoBehaviour {
 
     public Text introText;
-    //change
 
     private Sprite[] Astronauts;
     private Sprite[] Aliens;
@@ -20,7 +19,8 @@ public class ChooseCharacter : MonoBehaviour {
     public Sprite AlienBackground;
     public Sprite AstroBackground;
 
-    public Sprite disabledBackground;
+    public Sprite AstroDisabledBackground;
+    public Sprite AlienDisabledBackground;
 
     // Use this for initialization
     void Start () {
@@ -53,13 +53,13 @@ public class ChooseCharacter : MonoBehaviour {
         {
             if (i != index)
             {
-                AstronautButtons[i].image.sprite = disabledBackground;
+                AstronautButtons[i].image.sprite = AstroDisabledBackground;
             }
         }
 
         for (int i = 0; i < 3; i++)
         {
-            AlienButtons[i].image.sprite = disabledBackground;
+            AlienButtons[i].image.sprite = AlienDisabledBackground;
         }
     }
 
@@ -74,13 +74,13 @@ public class ChooseCharacter : MonoBehaviour {
         {
             if (i != index)
             {
-                AlienButtons[i].image.sprite = disabledBackground;
+                AlienButtons[i].image.sprite = AlienDisabledBackground;
             }
         }
 
         for (int i = 0; i < 3; i++)
         {
-            AstronautButtons[i].image.sprite = disabledBackground;
+            AstronautButtons[i].image.sprite = AstroDisabledBackground;
         }
     }
 }

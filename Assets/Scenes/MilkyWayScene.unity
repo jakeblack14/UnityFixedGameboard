@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -1712,20 +1712,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 364588625}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c93333356aae2b459d7a06e366f25c6, type: 3}
+  m_Script: {fileID: 11500000, guid: 22921709717c99041b957242c96dad73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 0
   gamePieces:
   - {fileID: 1293015514880204, guid: a097977412a4caa408376680f584feae, type: 2}
   - {fileID: 1786610852267922, guid: d48bc49736c54864b808d2a4cbbd0f8f, type: 2}
   canvas: {fileID: 1664599250}
-  GameOverPanel: {fileID: 1737912447538704, guid: 3ec01bbacbcf81345af382dd05f5be6b,
-    type: 2}
-  winnerText: {fileID: 114366426313645030, guid: 3ec01bbacbcf81345af382dd05f5be6b,
-    type: 2}
+  GameOverPanel: {fileID: 0}
+  winnerText: {fileID: 0}
   turnText: {fileID: 665620867}
-  Rocket: {fileID: 1425714107}
   selectedMat: {fileID: 2100000, guid: 6981dccdbd114a7011005aba44295342, type: 2}
 --- !u!4 &364588627
 Transform:
